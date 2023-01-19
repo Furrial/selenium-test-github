@@ -1,6 +1,6 @@
 # Selenium tests github
 ```
-Project that demonstrates testing framework based on Selenium Webdriver 4 and JUnit5 with Extent reporter generated after run
+Project that demonstrates testing framework based on Selenium Webdriver 4 and JUnit5 with Extent report generated after run
 ```
 ## Features
 - Multiple browsers support
