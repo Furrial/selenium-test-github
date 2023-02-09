@@ -26,5 +26,4 @@ public class AuthenticateValidationTest extends BaseTest {
         String actual = loginPage.loginWithError(cfg.username(), INCORRECT);
         assertEquals(actual, ERROR_MESSAGE);
     }
-
 }

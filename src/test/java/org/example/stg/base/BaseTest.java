@@ -26,7 +26,7 @@ public abstract class BaseTest {
         driver.manage().window().maximize();
         WebDriverHelper.setDriver(driver);
         this.driver = driver;
-        BasePage.setTIMEOUT(cfg.timeout());
+        BasePage.setTimeout(cfg.timeout());
     }
 
 }

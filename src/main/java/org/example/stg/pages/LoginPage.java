@@ -36,6 +36,4 @@ public class LoginPage extends BasePage {
         this.password.sendKeys(password);
         this.commit.click();
     }
-
-
 }

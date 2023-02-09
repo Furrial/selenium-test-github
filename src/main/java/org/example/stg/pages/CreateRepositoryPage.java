@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class CreateRepositoryPage extends BasePage {
-
     @FindBy(id = "repository_name")
     private WebElement repoNameInput;
 
@@ -23,6 +22,5 @@ public class CreateRepositoryPage extends BasePage {
     public String getRepoNameErrorMessage() {
         return repoError.getText();
     }
-
 
 }

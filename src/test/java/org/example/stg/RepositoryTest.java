@@ -28,5 +28,4 @@ public class RepositoryTest extends BaseTest {
         RepositoryPage repositoryPage = userHomePage.searchForRepo(repoToSearch).clickFirstLink();
         assertEquals("junit5", repositoryPage.getRepoName());
     }
-
 }

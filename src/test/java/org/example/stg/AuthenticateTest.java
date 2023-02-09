@@ -31,5 +31,4 @@ public class AuthenticateTest extends BaseTest {
         mainPage = userHomePage.logOut();
         assertTrue(mainPage.isSignInPresent());
     }
-
 }

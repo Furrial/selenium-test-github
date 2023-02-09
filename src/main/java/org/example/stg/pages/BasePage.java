@@ -14,9 +14,9 @@ public abstract class BasePage {
     protected WebDriver driver;
     protected Wait wait;
 
-    static int TIMEOUT = 3;//default value
+    private static int TIMEOUT = 3;//default value
 
-    public static void setTIMEOUT(int TIMEOUT) {
+    public static void setTimeout(int TIMEOUT) {
         BasePage.TIMEOUT = TIMEOUT;
     }
 
@@ -37,5 +37,4 @@ public abstract class BasePage {
     public String getPageTitle() {
         return driver.getTitle();
     }
-
 }

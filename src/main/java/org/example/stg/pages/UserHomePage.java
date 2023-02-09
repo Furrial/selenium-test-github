@@ -13,7 +13,6 @@ import java.time.format.DateTimeFormatter;
 import static org.example.stg.constant.Path.PATH_AND_NAME_OF_SCREENSHOT;
 
 public class UserHomePage extends BasePage {
-
     @FindBy(xpath = "//h2/a[@href = '/new']")
     private WebElement newRepositoryLink;
 

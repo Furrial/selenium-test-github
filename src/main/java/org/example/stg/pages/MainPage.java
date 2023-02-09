@@ -5,10 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MainPage extends BasePage {
-
     @FindBy(linkText = "Sign in")
     private WebElement signInLink;
-
 
     public MainPage(WebDriver driver, String url) {
         super(driver);

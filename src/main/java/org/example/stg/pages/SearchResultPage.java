@@ -8,15 +8,12 @@ import org.openqa.selenium.support.FindBys;
 import java.util.List;
 
 public class SearchResultPage extends BasePage {
-
     @FindBys({@FindBy(css = "a.v-align-middle")})
     private List<WebElement> repositoriesLinks;
-
 
     public SearchResultPage(WebDriver driver) {
         super(driver);
     }
-
 
     public RepositoryPage clickFirstLink() {
         repositoriesLinks.get(0).click();
